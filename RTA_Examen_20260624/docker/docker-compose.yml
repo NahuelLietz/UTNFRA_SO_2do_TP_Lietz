@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web_server:
+    image: nginx:latest
+    container_name: web_parcial_lietz
+    ports:
+      - "8080:80"
+    restart: always
